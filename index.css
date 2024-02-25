@@ -1,4 +1,4 @@
-/* Basic styling for the body */
+/* Styling for the body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,7 +16,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Styling for text input */
+  /* Text input Styling */
   input[type="text"] {
     width: 70%;
     padding: 5px;

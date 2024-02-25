@@ -1,16 +1,16 @@
-// Get the container for tasks and the input field for new tasks
+// 'Get' the container for the tasks and the input field for new tasks
 const tasksContainer = document.getElementById('task-list');
 const newTaskInput = document.getElementById('new-task');
 
-// Array to store tasks
+//Array to store all tasks
 let tasks = [];
 
-// Function to add a new task
+// The function to add a new task
 function addTask() {
-  // Trim the input value
+
   const taskName = newTaskInput.value.trim();
 
-  // Check if the input is not empty
+  // Confirm if the input is not empty
   if (taskName !== '') {
     // Create a new task object
     const task = {
